@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>PageTurner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <header id="top">
+        <div class="navbar">
+            <!-- logo -->
+            <div class="nav-logo border">
+                <div class="logo">PageTurner</div>
+            </div>
+
+            <!-- address -->
+            <div class="nav-add border">
+                <p class="add1">Deliver to</p>
+
+                <div class="nav-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add2">India</p>
+                </div>
+            </div>
+
+            <!-- search -->
+            <div class="nav-search">
+                <select class="srch-slct">
+                    <option> All </option>
+                </select>
+                <input placeholder="Search books here..." class="srch-input">
+
+                <div class="srch-icn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+
+
+
+            <!-- user -->
+            <div class="nav-usr border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav1">Account & List ▾</p>
+
+                <!-- Dropdown Menu -->
+                <div class="dropdown">
+                    <a href="#">My Account</a>
+                    <a href="#">Orders</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Sign Out</a>
+                </div>
+            </div>
+
+
+            <!-- order -->
+            <div class="nav-rtn border">
+                <p><span> Return</span></p>
+                <p class="nav1"> & Order </p>
+            </div>
+
+            <!-- Orders Popup -->
+            <div id="ordersPopup" class="orders-popup">
+                <div class="popup-content">
+                    <span class="close-btn">&times;</span>
+                    <p>You haven't ordered anything yet.</p>
+                    <a href="#shop" class="shop-now-btn">Shop Now</a>
+                </div>
+            </div>
+
+
+
+            <!-- cart  -->
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-msg">
+                <h2>Welcome to <span class="brand">PageTurner</span></h2>
+                <p>Books You’ll Love, Just a Click Away.</p>
+                <a href="#shop" class="hero-btn">Browse Collection →</a>
+            </div>
+        </div>
+
+
+
+        <!-- Featured Collection: Best Sellers -->
+        <section class="featured-section">
+            <h2 class="section-title">📚 Best Sellers</h2>
+            <div class="book-grid">
+
+                <div class="book-card">
+                    <img src="img/gunah.png" alt="Gunaaho Ka Devta">
+                    <h3>Gunahon Ka Devta</h3>
+                    <p>by Dharmveer Bharti</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="book-card">
+                    <img src="img/madhu.png" alt="Madhushala">
+                    <h3>Madhushala</h3>
+                    <p>Harivansh Rai Bachchan</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="book-card">
+                    <img src="img/atomic.png" alt="Atomic Habits">
+                    <h3>Atomic Habits</h3>
+                    <p>by James Clear</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="book-card">
+                    <img src="img/harry.png" alt="Harry Potter">
+                    <h3>Harry Potter</h3>
+                    <p>by J.K. Rowling</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collection: New Arrivals -->
+        <section class="featured-section">
+            <h2 class="section-title">✨ New Arrivals</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="img/chakka.png" alt="Chakka Jaam">
+                    <h3>Chakka Jaam</h3>
+                    <p>by Gautam Choubey</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="book-card">
+                    <img src="img/fourth.png" alt="Fourth Wing">
+                    <h3>Fourth Wing</h3>
+                    <p>by Rebecca Yarros</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="book-card">
+                    <img src="img/yellow.png" alt="Yellowface">
+                    <h3>Yellowface</h3>
+                    <p>by R.F. Kuang</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="book-card">
+                    <img src="img/tomorrow.png" alt="Tomorrow, and Tomorrow, and Tomorrow">
+                    <h3>Tomorrow, and Tomorrow, and Tomorrow</h3>
+                    <p>by Gabrielle Zevin</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collection: Award Winning Books -->
+        <section class="featured-section">
+            <h2 class="section-title">🏆 Award-Winning Books</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="img/rag.png" alt="Raag Darbari">
+                    <h3>Raag Darbari</h3>
+                    <p>by Shrilal Shukla</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="book-card">
+                    <img src="img/anchal.png" alt="Maila Anchal">
+                    <h3>Maila Anchal</h3>
+                    <p>by Phanishwar Nath Renu</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="book-card">
+                    <img src="img/test.png" alt="The Testaments">
+                    <h3>The Testaments</h3>
+                    <p>by Margaret Atwood</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="book-card">
+                    <img src="img/watch.png" alt="The Night Watchman">
+                    <h3>The Night Watchman</h3>
+                    <p>by Louise Erdrich</p>
+                    <button>Add to Cart</button>
+                </div>
+
+
+            </div>
+        </section>
+
+        <div class="shop-sec" id="shop">
+            <!-- Hindi Novels -->
+            <div class="box">
+                <div class="box-content">
+                    <h2>Hindi Novels</h2>
+                    <div class="box-img" style="background-image: url('img/hindi.png');"></div>
+                    <p>Explore Now</p>
+                </div>
+            </div>
+
+            <!-- English Novels -->
+            <div class="box">
+                <div class="box-content">
+                    <h2>English Novels</h2>
+                    <div class="box-img" style="background-image: url('img/english.png');"></div>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+
+            <!-- Children's Books -->
+            <div class="box">
+                <div class="box-content">
+                    <h2>Children’s Books</h2>
+                    <div class="box-img" style="background-image: url('img/children.png');"></div>
+                    <p>Discover</p>
+                </div>
+            </div>
+
+            <!-- Self Help -->
+            <div class="box">
+                <div class="box-content">
+                    <h2>Self Help</h2>
+                    <div class="box-img" style="background-image: url('img/selfHelp.png');"></div>
+                    <p>Read Now</p>
+                </div>
+            </div>
+
+            <!-- Biographies -->
+            <div class="box">
+                <div class="box-content">
+                    <h2>Biographies</h2>
+                    <div class="box-img" style="background-image: url('img/biography.png');"></div>
+                    <p>Learn More</p>
+                </div>
+            </div>
+
+            <!-- Poetry -->
+            <div class="box">
+                <div class="box-content">
+                    <h2>Poetry Collections</h2>
+                    <div class="box-img" style="background-image: url('img/poem.png');"></div>
+                    <p>Browse</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="root-panel1">
+                <a href="#top">Back to Top</a>
+            </div>
+
+            <div class="root-panel2">
+                <ul>
+                    <p>About PageTurner</p>
+                    <a href="#">Our Story</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">Sustainability</a>
+                </ul>
+
+                <ul>
+                    <p>Help & Support</p>
+                    <a href="#">Customer Service</a>
+                    <a href="#">Shipping & Returns</a>
+                    <a href="#">Order Tracking</a>
+                    <a href="#">FAQs</a>
+                </ul>
+
+                <ul>
+                    <p>Categories</p>
+                    <a href="#">Children’s Books</a>
+                    <a href="#">Academic</a>
+                    <a href="#">Comics</a>
+                    <a href="#">Biographies</a>
+                </ul>
+
+                <ul>
+                    <p>Community</p>
+                    <a href="#">Book Clubs</a>
+                    <a href="#">Events & Signings</a>
+                    <a href="#">Author Spotlights</a>
+                    <a href="#">Newsletter</a>
+                </ul>
+            </div>
+
+
+
+            <div class="root-panel3">
+                
+                <div class="copyr">© 2025, 📖 Made with ❤️ by PageTurner
+                </div>
+            </div>
+        </footer>
+
+        <!-- Location Popup -->
+        <div id="locationModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Choose your delivery location</h2>
+                <p>Select a location to see product availability and delivery options.</p>
+                <input type="text" id="locationInput" placeholder="Enter city or pincode">
+                <button id="saveLocation">Save</button>
+            </div>
+        </div>
+
+
+        <script src="page.js"></script>
+
+</body>
+
+</html>
